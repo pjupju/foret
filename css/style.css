@@ -1,0 +1,37 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+}
+ul, li {
+    list-style-type: none;
+}
+a {
+    text-decoration: none;
+}
+.header-top {
+    width: 25vw;
+    height: 100vh;
+    background-image: url(/img/fon.jpg);
+    position: fixed;
+    padding: 30px 15px;
+}
+.header-top-nav {
+    display: flex;
+    justify-content: space-between;
+    color: #fff;
+}
+.header-top-center {
+    margin-top: 200px;
+    text-align: center;
+    color: #fff 
+}
+.header-top-center > img {
+    width: 30px;
+}
+.header-top-bottom {
+    text-align: center;
+    color: #fff;
+    margin-top: 100px;
+}

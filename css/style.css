@@ -14,18 +14,24 @@ a {
     width: 25vw;
     height: 100vh;
     background-image: url(/img/fon.jpg);
+    background-repeat: no-repeat;
     position: fixed;
     padding: 30px 15px;
+    display: inline-block;
 }
 .header-top-nav {
     display: flex;
     justify-content: space-between;
-    color: #fff;
+    color: rgb(97, 13, 13);
+}
+.fa, .fas {
+    font-size: 26px;
 }
 .header-top-center {
     margin-top: 200px;
     text-align: center;
-    color: #fff 
+    color: #fff;
+    text-transform: uppercase;
 }
 .header-top-center > img {
     width: 30px;
@@ -34,4 +40,24 @@ a {
     text-align: center;
     color: #fff;
     margin-top: 100px;
+}
+.header-bottom {
+    width: 75vw;
+    display: inline-block;
+    float: right;
+    padding: 10px 30px;
+    border-bottom: 1px solid rgb(177, 175, 175);
+}
+.menu > ul {
+    display: flex;
+    justify-content: space-around;
+}
+.menu > ul > li {
+    padding: 0 5px;
+    color: black;
+}
+.menu > ul > li > a {
+    font-size: 16px;
+    color: black;
+    text-transform: uppercase;
 }

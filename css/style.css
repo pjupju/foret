@@ -44,16 +44,37 @@ a {
     font-size: 28px;
     text-align: center;
 }
+@media screen and (max-width: 1020px) {
+    .header-top-bottom {
+        font-size: 20px;
+    }
+}
 .header-bottom {
     width: 75vw;
     display: inline-block;
     float: right;
     padding: 10px 30px;
-    border-bottom: 1px solid rgb(177, 175, 175); 
+    border-bottom: 1px solid rgb(177, 175, 175);
+    position: fixed;
+    left: 25vw;
 }
 .menu > ul {
     display: flex;
     justify-content: space-around;
+}
+@media screen and (max-width: 1020px) {
+    .menu > ul {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+    }
+    .menu > ul > li {
+        width: 25%;
+        text-align: center;
+    }
+    .menu > ul > li > a {
+        line-height: 26px;
+    }
 }
 .menu > ul > li {
     padding: 0 5px;
@@ -63,6 +84,11 @@ a {
     font-size: 16px;
     color: black;
     text-transform: uppercase;
+}
+@media screen and (max-width: 1020px) {
+    .menu > ul > li > a {
+        font-size: 14px;
+    }
 }
 .block {
     width: 75vw;
@@ -101,6 +127,25 @@ a {
     font-size: 24px;
     margin-right: 10px;
 }
+.block-item-bottom > p {
+    font-size: 24px;
+    margin-right: 10px;
+}
+@media screen and (max-width: 1200px) {
+    .block-item-bottom > p {
+        font-size: 20px;
+    }
+}
+@media screen and (max-width: 1020px) {
+    .block-item-bottom > p {
+        font-size: 16px;
+    }
+}
 .block-item-bottom > img {
     width: 400px;
+}
+@media screen and (max-width: 1200px) {
+    .block-item-bottom > img {
+        width: 300px;
+    }
 }

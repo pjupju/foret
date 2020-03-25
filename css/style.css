@@ -39,7 +39,7 @@ a {
 .header-top-nav {
     display: flex;
     justify-content: space-between;
-    color: rgb(142, 68, 68);
+    color: rgb(122, 194, 165);
 }
 @media screen and (max-width: 900px) {
     .header-top-nav {
@@ -52,7 +52,7 @@ a {
 .header-top-center {
     margin-top: 250px;
     text-align: center;
-    color: rgb(142, 68, 68);
+    color: rgb(122, 194, 165);
     text-transform: uppercase;
 }
 @media screen and (max-width: 900px) {
@@ -66,7 +66,7 @@ a {
 }
 .header-top-bottom {
     text-align: center;
-    color: rgb(142, 68, 68);
+    color: rgb(6, 59, 38);
     margin-top: 100px;
     font-size: 28px;
     text-align: center;
@@ -89,6 +89,7 @@ a {
     border-bottom: 1px solid rgb(177, 175, 175);
     position: fixed;
     left: 25vw;
+    z-index: 20;
 }
 @media screen and (max-width: 900px) {
     .header-bottom {
@@ -148,6 +149,7 @@ a {
     width: 70vw;
     float: right;
     margin-top: 50px;
+    z-index: 1;
 }
 @media screen and (max-width: 900px) {
     .block {
@@ -219,3 +221,16 @@ a {
         width: 300px;
     }
 }
+.block-item-btn {
+    padding: 10px 15px;
+    border: none;
+    float: right;
+    background-color: rgb(235, 232, 232);
+    margin: 0 50px 50px 0;
+}
+@media screen and (max-width: 900px) {
+    .block-item-btn {
+        display: none;
+    }
+}
+

@@ -3,8 +3,8 @@
 }
 @font-face {
     font-family: 'alexander';
-    src: url(/fonts/alexander.otf);
-  }
+    src: url('../fonts/alexander.otf');
+}
 body {
     margin: 0;
 }
@@ -18,7 +18,7 @@ a {
 .header-top {
     width: 25vw;
     height: 100vh;
-    background-image: url(/img/fon.jpg);
+    background-image: url('../img/fon.jpg');
     background-repeat: no-repeat;
     padding: 30px 15px;
     display: inline-block;
